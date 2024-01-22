@@ -4,30 +4,6 @@ import MoneyDetails from '../MoneyDetails'
 import TransactionItem from '../TransactionItem'
 import './index.css'
 
-/* const moneyItems = [
-  {
-    id: v4uuid(),
-    text: 'Your Balance',
-    color: 'money-list-container1',
-    imgUrl:
-      'https://assets.ccbp.in/frontend/react-js/money-manager/balance-image.png',
-  },
-  {
-    id: v4uuid(),
-    text: 'Your Income',
-    color: 'money-list-container2',
-    imgUrl:
-      'https://assets.ccbp.in/frontend/react-js/money-manager/income-image.png',
-  },
-  {
-    id: v4uuid(),
-    text: 'Your Expenses',
-    color: 'money-list-container3',
-    imgUrl:
-      'https://assets.ccbp.in/frontend/react-js/money-manager/expenses-image.png',
-  },
-] */
-
 const transactionTypeOptions = [
   {
     optionId: 'INCOME',
